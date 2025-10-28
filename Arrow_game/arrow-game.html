@@ -71,21 +71,23 @@
       <path d="M790 150 L790 180 L810 180 L810 100 Z M790 200 L810 200 L810 220 L790 220 Z"/>
     </g>
 
-    <g class="loveyou" fill="#F4531C" opacity="0" transform="translate(300, 100)">
-      <!-- L -->
+    <g class="bullseye" fill="#F4531C" opacity="0" transform="translate(300, 100)">
+      <!-- B -->
       <path d="M0 0 L0 80 L30 80 L30 70 L10 70 L10 0 Z"/>
-      <!-- O -->
-      <path d="M50 40 A20 20 0 1 1 49.9 40"/>
-      <!-- V -->
-      <path d="M80 0 L100 80 L120 0 L110 0 L100 60 L90 0 Z"/>
-      <!-- E -->
-      <path d="M140 0 L140 80 L170 80 L170 70 L150 70 L150 50 L170 50 L170 40 L150 40 L150 10 L170 10 L170 0 Z"/>
-      <!-- Y -->
-      <path d="M190 0 L205 30 L220 0 L230 0 L210 40 L210 80 L200 80 L200 40 L180 0 Z"/>
-      <!-- O -->
-      <path d="M250 40 A20 20 0 1 1 249.9 40"/>
       <!-- U -->
+      <path d="M50 40 A20 20 0 1 1 49.9 40"/>
+      <!-- L -->
+      <path d="M80 0 L100 80 L120 0 L110 0 L100 60 L90 0 Z"/>
+      <!-- L -->
+      <path d="M140 0 L140 80 L170 80 L170 70 L150 70 L150 50 L170 50 L170 40 L150 40 L150 10 L170 10 L170 0 Z"/>
+      <!-- S -->
+      <path d="M190 0 L205 30 L220 0 L230 0 L210 40 L210 80 L200 80 L200 40 L180 0 Z"/>
+      <!-- E -->
+      <path d="M250 40 A20 20 0 1 1 249.9 40"/>
+      <!-- Y -->
       <path d="M280 0 L280 50 A20 20 0 0 0 320 50 L320 0 L310 0 L310 50 A10 10 0 0 1 290 50 L290 0 Z"/>
+      <!-- E -->
+      <path d="M190 0 L205 30 L220 0 L230 0 L210 40 L210 80 L200 80 L200 40 L180 0 Z"/>
     </g>
       <g class="hit" fill="#ffcc00" opacity="0" transform="translate(180, -80) rotate(12) ">
         <path d="M383 114L385 195 407 191 406 160 422 155 418 191 436 189 444 112 423 119 422 141 407 146 400 113"/>
@@ -240,7 +242,7 @@
           var distance = Math.sqrt(dx * dx + dy * dy);
           var selector = ".hit";
           if (distance < 7) {
-            selector = ".loveyou";
+            selector = ".bullseye";
           }
           showMessage(selector);
         }
